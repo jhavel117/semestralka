@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="semestralka_Jan_Havel_stylesheet.xsl"?>
+<ukladani_hry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="semestralka_Jan_Havel.xsd">
+    <!--zaznam1-->
+    <hra id="1" jazyk="cestina">
+        <meta_info_ulozeni>
+            <jmeno_savu>MujSave1</jmeno_savu>
+            <datum_ulozeni>
+                <datum>2017-02-01</datum>
+                <cas>02:18:55</cas>
+            </datum_ulozeni>
+            <statut level="33">Expert</statut>
+            <jmeno_postavy>Artom</jmeno_postavy>
+            <lokace>Pripjat</lokace>
+            <zdravi unit="%">100</zdravi>
+        </meta_info_ulozeni>
+        <nastaveni>
+            <obraz>
+                <typ_zobrazeni typ="static">Staticke osvetleni</typ_zobrazeni>
+                <kvalita uroven_kvality="5">Nejvyssi</kvalita>
+                <rozliseni pomer_stran="16:9">1366x768</rozliseni>
+                <gamma hodnota="5">Stredni</gamma>
+                <kontrast hodnota ="5">Stredni</kontrast>
+                <jas hodnota = "5">Stredni</jas>
+                <fullscreen checked="true">Ano</fullscreen>
+            </obraz>
+            <zvuk>
+                <hlasitost_efektu efekt="10">Plna</hlasitost_efektu>
+                <hlasitost_hudby hudba="10">Plna</hlasitost_hudby>
+                <eax checked ="true">Ano</eax>
+            </zvuk>
+            <obecna_hra>
+                <obtiznost uroven="4">Mistr</obtiznost>
+                <zobraz_zamerovac checked="true">Ano</zobraz_zamerovac>
+                <dyn_zamer_kriz checked="true">Ano</dyn_zamer_kriz>
+                <zobraz_zbran checked="true">Ano</zobraz_zbran>
+                <zobraz_vzdalenost_cile checked="true">Ano</zobraz_vzdalenost_cile>
+                <id_npc checked ="true">Ano</id_npc>
+            </obecna_hra>
+            <ovladani>
+                <citlivost_mysi citlivost="2.5">Nizka</citlivost_mysi>
+                <inverze_mysi ch_invert="false">Ne</inverze_mysi>
+                <vychozi_nastaveni ch_def="false">Ne</vychozi_nastaveni>
+            </ovladani>
+        </nastaveni>
+        <herni_plocha>
+            <postava>
+                <inventar>
+                    <vaha max_hmotnost="50" stav_zatizeni="pretizeny">59.5</vaha>
+                    <zbrane>
+                        <primarni typ_zbrane="utocna puska" stav="vynikajici">GP 37</primarni>
+                        <sekundarni typ_zbrane="pistole" stav="dobry">Big Ben</sekundarni>
+                    </zbrane>
+                    <oblek typ_obleku="vedecky" stav="vynikajici">SSP-99M</oblek>
+                </inventar>
+                <aktualni_zbran zbrane="primarni">GP 37</aktualni_zbran>
+            </postava>
+            <pda>
+                <ukoly id="uuid56" faze="1" zadano="2012-05-12" cas="07:42:32">
+                    <nazev>Tajna laborator</nazev>
+                    <faze_ukolu>Najdi skryte dvere</faze_ukolu>
+                    <popis>Doktor:"Existuje dekoder, kterym se daji otevrit dvere..."</popis>
+                </ukoly>
+                <kontakty>
+                    <osoba id="3356" frakce="Monolit" reputace="velmi spatny" pristup="nepratelsky" uroven="veteran">
+                        <jmeno>Bogdan Parazit</jmeno>
+                    </osoba>
+                    <osoba id="6666" frakce="Povinnost" reputace="dobry" pristup="neutralni" uroven="veteran">
+                        <jmeno>Kamil Taborak</jmeno>
+                    </osoba>
+                    <osoba id="0359" frakce="samotar" reputace="velmi dobry" pristup="pratelsky" uroven="expert">
+                        <jmeno>Vlado Mraz</jmeno>
+                    </osoba>
+                </kontakty>
+                <hodnoceni>
+                    <osoba umisteni="1" id="1999" frakce="samotar" pristup="n/a" hodnoceni="1810" stav="zivy">
+                        <jmeno>Artom Oznaceny</jmeno>
+                    </osoba>
+                    <osoba umisteni="2" id="2003" frakce="Monolit" pristup="nepratelsky" hodnoceni="999" stav="zivy">
+                        <jmeno>Jano Brouzka</jmeno>
+                    </osoba>
+                    <osoba umisteni="3" id="7985" frakce="samotar" pristup="neutralni" hodnoceni="970" stav="mrtvy">
+                        <jmeno>Igor Podesev</jmeno>
+                    </osoba>
+                </hodnoceni>
+                <statistika>
+                    <stalkeri>1196</stalkeri>
+                    <mutanti>255</mutanti>
+                    <ukoly>359</ukoly>
+                    <artefakty>0</artefakty>
+                    <celkem>1810</celkem>
+                </statistika>
+            </pda>            
+        </herni_plocha>
+    </hra>
+    <!--zaznam2-->
+    <hra id="2" jazyk="italstina">
+        <meta_info_ulozeni>
+            <jmeno_savu>Hra65</jmeno_savu>
+            <datum_ulozeni>
+                <datum>2015-11-15</datum>
+                <cas>15:59:59</cas>
+            </datum_ulozeni>
+            <statut level="10">Zkuseny</statut>
+            <jmeno_postavy>Vladislav</jmeno_postavy>
+            <lokace>Skladka</lokace>
+            <zdravi>66</zdravi>
+        </meta_info_ulozeni>
+        <nastaveni>
+            <obraz>
+                <typ_zobrazeni typ="static">Staticke osvetleni</typ_zobrazeni>
+                <kvalita uroven_kvality="5">Nejvyssi</kvalita>
+                <rozliseni pomer_stran="16:9">1366x768</rozliseni>
+                <gamma hodnota="7">Vyssi</gamma>
+                <kontrast hodnota ="5">Stredni</kontrast>
+                <jas hodnota = "6">Vyssi</jas>
+                <fullscreen checked="true">Ano</fullscreen>
+            </obraz>
+            <zvuk>
+                <hlasitost_efektu efekt="8">Vyssi</hlasitost_efektu>
+                <hlasitost_hudby hudba="7">Vyssi</hlasitost_hudby>
+                <eax checked ="false">Ne</eax>
+            </zvuk>
+            <obecna_hra>
+                <obtiznost uroven="3">Veteran</obtiznost>
+                <zobraz_zamerovac checked="true">Ano</zobraz_zamerovac>
+                <dyn_zamer_kriz checked="true">Ano</dyn_zamer_kriz>
+                <zobraz_zbran checked="true">Ano</zobraz_zbran>
+                <zobraz_vzdalenost_cile checked="true">Ano</zobraz_vzdalenost_cile>
+                <id_npc checked ="true">Ano</id_npc>
+            </obecna_hra>
+            <ovladani>
+                <citlivost_mysi citlivost="5">Stredni</citlivost_mysi>
+                <inverze_mysi ch_invert="false">Ne</inverze_mysi>
+                <vychozi_nastaveni ch_def="true">Ano</vychozi_nastaveni>
+            </ovladani>
+        </nastaveni>
+        <herni_plocha>
+            <postava>
+                <inventar>
+                    <vaha max_hmotnost="50" stav_zatizeni="lehce zatizeny">20.3</vaha>
+                    <zbrane>
+                        <primarni typ_zbrane="brokovnice" stav="spatny">Upilovana brokovnice</primarni>
+                        <sekundarni typ_zbrane="pistole" stav="dobry">P1911</sekundarni>
+                    </zbrane>
+                    <oblek typ_obleku="obycejny" stav="vynikajici">Bunda</oblek>
+                </inventar>
+                <aktualni_zbran zbrane="sekundarni">Nuz</aktualni_zbran>
+            </postava>
+            <pda>
+                <ukoly id="uuid6" faze="2" zadano="2012-03-02" cas="10:33:12">
+                    <nazev>Vycisti tabor od banditu</nazev>
+                    <faze_ukolu>Vrat se pro odmenu</faze_ukolu>
+                    <popis>Obchodnik:"Otravuji nas posledni dobou nejaci gauneri, kteri se nam snazi co nejvic uskodit, ..."</popis>
+                </ukoly>
+                <kontakty>
+                    <osoba id="0012" frakce="samotar" reputace="neutralni" pristup="neutralni" uroven="novacek">
+                        <jmeno>Bozka Jozka</jmeno>
+                    </osoba>
+                    <osoba id="0202" frakce="samotar" reputace="dobry" pristup="neutralni" uroven="zkuseny">
+                        <jmeno>Harald Pena</jmeno>
+                    </osoba>
+                    <osoba id="0777" frakce="samotar" reputace="velmi dobry" pristup="pratelsky" uroven="zkuseny">
+                        <jmeno>Hans Chodec</jmeno>
+                    </osoba>
+                </kontakty>
+                <hodnoceni>
+                    <osoba umisteni="1" id="0987" frakce="samotar" pristup="neutralni" hodnoceni="999" stav="zivy">
+                        <jmeno>Lucian Busak</jmeno>
+                    </osoba>
+                    <osoba umisteni="2" id="2089" frakce="Monolit" pristup="nepratelsky" hodnoceni="998" stav="zivy">
+                        <jmeno>Simon Luk</jmeno>
+                    </osoba>
+                    <osoba umisteni="3" id="4659" frakce="Povinnost" pristup="neutralni" hodnoceni="810" stav="mrtvy">
+                        <jmeno>Igor Samek</jmeno>
+                    </osoba>
+                </hodnoceni>
+                <statistika>
+                    <stalkeri>20</stalkeri>
+                    <mutanti>5</mutanti>
+                    <ukoly>5</ukoly>
+                    <artefakty>0</artefakty>
+                    <celkem>30</celkem>
+                </statistika>
+            </pda>            
+        </herni_plocha>
+    </hra>
+    <!--zaznam3-->
+    <hra id="3" jazyk="nemcina">
+        <meta_info_ulozeni>
+            <jmeno_savu>hra035</jmeno_savu>
+            <datum_ulozeni>
+                <datum>2017-04-22</datum>
+                <cas>22:22:22</cas>
+            </datum_ulozeni>
+            <statut level="29">Veteran</statut>
+            <jmeno_postavy>Bolek</jmeno_postavy>
+            <lokace>Divoka oblast</lokace>
+            <zdravi>100</zdravi>
+        </meta_info_ulozeni>
+        <nastaveni>
+            <obraz>
+                <typ_zobrazeni typ="full-dynamic">Plne dynamicke osvetleni</typ_zobrazeni>
+                <kvalita uroven_kvality="5">Nejvyssi</kvalita>
+                <rozliseni pomer_stran="16:9">1920x1080</rozliseni>
+                <gamma hodnota="5">Normalni</gamma>
+                <kontrast hodnota ="5">Stredni</kontrast>
+                <jas hodnota = "6">Vyssi</jas>
+                <fullscreen checked="true">Ano</fullscreen>
+            </obraz>
+            <zvuk>
+                <hlasitost_efektu efekt="10">Plny</hlasitost_efektu>
+                <hlasitost_hudby hudba="7">Vyssi</hlasitost_hudby>
+                <eax checked ="true">Ano</eax>
+            </zvuk>
+            <obecna_hra>
+                <obtiznost uroven="4">Mistr</obtiznost>
+                <zobraz_zamerovac checked="true">Ano</zobraz_zamerovac>
+                <dyn_zamer_kriz checked="false">Ne</dyn_zamer_kriz>
+                <zobraz_zbran checked="true">Ano</zobraz_zbran>
+                <zobraz_vzdalenost_cile checked="false">Ne</zobraz_vzdalenost_cile>
+                <id_npc checked ="true">Ano</id_npc>
+            </obecna_hra>
+            <ovladani>
+                <citlivost_mysi citlivost="6">Stredni</citlivost_mysi>
+                <inverze_mysi ch_invert="false">Ne</inverze_mysi>
+                <vychozi_nastaveni ch_def="false">Ne</vychozi_nastaveni>
+            </ovladani>
+        </nastaveni>
+        <herni_plocha>
+            <postava>
+                <inventar>
+                    <vaha max_hmotnost="50" stav_zatizeni="zatizeny">50</vaha>
+                    <zbrane>
+                        <primarni typ_zbrane="odstrelovaci puska" stav="dobry">Dragunov SVD</primarni>
+                        <sekundarni typ_zbrane="pistole" stav="dobry">Glock 17</sekundarni>
+                    </zbrane>
+                    <oblek typ_obleku="stalkersky" stav="vynikajici">Stalkersky oblek</oblek>
+                </inventar>
+                <aktualni_zbran zbrane="primarni">Dragunov SVD</aktualni_zbran>
+            </postava>
+            <pda>
+                <ukoly id="uuid23" faze="1" zadano="2011-11-02" cas="23:58:10">
+                    <nazev>Dostan se do laboratore X16</nazev>
+                    <faze_ukolu>Najdi tajny vchod</faze_ukolu>
+                    <popis>Barman:"V X16 se nachazeji tajne dokumenty tykajici se..."</popis>
+                </ukoly>
+                <kontakty>
+                    <osoba id="2356" frakce="samotar" reputace="neutralni" pristup="neutralni" uroven="veteran">
+                        <jmeno>Jozef Brada</jmeno>
+                    </osoba>
+                    <osoba id="0055" frakce="Povinnost" reputace="neutralni" pristup="neutralni" uroven="zkuseny">
+                        <jmeno>Ivan Koran</jmeno>
+                    </osoba>
+                    <osoba id="1975" frakce="Povinnost" reputace="neutralni" pristup="neutralni" uroven="zkuseny">
+                        <jmeno>Jelcin Sladek</jmeno>
+                    </osoba>
+                </kontakty>
+                <hodnoceni>
+                    <osoba umisteni="1" id="9999" frakce="Povinnost" pristup="neutralni" hodnoceni="1010" stav="mrtvy">
+                        <jmeno>Bosek Nosek</jmeno>
+                    </osoba>
+                    <osoba umisteni="2" id="6843" frakce="samotar" pristup="neutralni" hodnoceni="931" stav="zivy">
+                        <jmeno>Artur Hnizdo</jmeno>
+                    </osoba>
+                    <osoba umisteni="3" id="0064" frakce="Svoboda" pristup="neutralni" hodnoceni="899" stav="mrtvy">
+                        <jmeno>Kamil Klek</jmeno>
+                    </osoba>
+                </hodnoceni>
+                <statistika>
+                    <stalkeri>520</stalkeri>
+                    <mutanti>133</mutanti>
+                    <ukoly>101</ukoly>
+                    <artefakty>5</artefakty>
+                    <celkem>759</celkem>
+                </statistika>
+            </pda>            
+        </herni_plocha>
+    </hra>
+    <!--zaznam4-->
+    <hra id="4" jazyk="cestina">
+        <meta_info_ulozeni>
+            <jmeno_savu>TestHraStalker</jmeno_savu>
+            <datum_ulozeni>
+                <datum>2016-12-20</datum>
+                <cas>21:01:05</cas>
+            </datum_ulozeni>
+            <statut level="40">Mistr</statut>
+            <jmeno_postavy>Nikolaj</jmeno_postavy>
+            <lokace>Elektrarna Cernobyl</lokace>
+            <zdravi>27</zdravi>
+        </meta_info_ulozeni>
+        <nastaveni>
+            <obraz>
+                <typ_zobrazeni typ="dynamic">Dynamicke osvetleni</typ_zobrazeni>
+                <kvalita uroven_kvality="5">Nejvyssi</kvalita>
+                <rozliseni pomer_stran="16:9">1920x1080</rozliseni>
+                <gamma hodnota="5">Normalni</gamma>
+                <kontrast hodnota ="5">Stredni</kontrast>
+                <jas hodnota = "5">Normalni</jas>
+                <fullscreen checked="true">Ano</fullscreen>
+            </obraz>
+            <zvuk>
+                <hlasitost_efektu efekt="10">Plny</hlasitost_efektu>
+                <hlasitost_hudby hudba="10">Plny</hlasitost_hudby>
+                <eax checked ="true">Ano</eax>
+            </zvuk>
+            <obecna_hra>
+                <obtiznost uroven="4">Mistr</obtiznost>
+                <zobraz_zamerovac checked="true">Ano</zobraz_zamerovac>
+                <dyn_zamer_kriz checked="false">Ne</dyn_zamer_kriz>
+                <zobraz_zbran checked="true">Ano</zobraz_zbran>
+                <zobraz_vzdalenost_cile checked="true">Ano</zobraz_vzdalenost_cile>
+                <id_npc checked ="true">Ano</id_npc>
+            </obecna_hra>
+            <ovladani>
+                <citlivost_mysi citlivost="2">Nizka</citlivost_mysi>
+                <inverze_mysi ch_invert="false">Ne</inverze_mysi>
+                <vychozi_nastaveni ch_def="false">Ne</vychozi_nastaveni>
+            </ovladani>
+        </nastaveni>
+        <herni_plocha>
+            <postava>
+                <inventar>
+                    <vaha max_hmotnost="50" stav_zatizeni="stredne zatizeny">44.1</vaha>
+                    <zbrane>
+                        <primarni typ_zbrane="utocna puska" stav="spatny">OT-14</primarni>
+                        <sekundarni typ_zbrane="pistole" stav="dobry">Big Ben</sekundarni>
+                    </zbrane>
+                    <oblek typ_obleku="stalkersky" stav="dobry">Oblek clena Monolitu</oblek>
+                </inventar>
+                <aktualni_zbran zbrane="primarni">OT-14</aktualni_zbran>
+            </postava>
+            <pda>
+                <ukoly id="uuid100" faze="5" zadano="2012-03-17" cas="12:00:33">
+                    <nazev>Ziskej Monolit</nazev>
+                    <faze_ukolu>Dostan se k monolitu</faze_ukolu>
+                    <popis>Vlk:"Spousta lidi se tam snazi ziskat ten kamen, zatim nikomu se to jeste nepodarilo,..."</popis>
+                </ukoly>
+                <kontakty>
+                </kontakty>
+                <hodnoceni>
+                    <osoba umisteni="1" id="0001" frakce="samotar" pristup="n/a" hodnoceni="3243" stav="zivy">
+                        <jmeno>Nikolaj</jmeno>
+                    </osoba>
+                    <osoba umisteni="2" id="6698" frakce="Monolit" pristup="nepratelsky" hodnoceni="1001" stav="zivy">
+                        <jmeno>Janek Drzej</jmeno>
+                    </osoba>
+                    <osoba umisteni="3" id="9976" frakce="Monolit" pristup="nepratelsky" hodnoceni="1000" stav="zivy">
+                        <jmeno>Bohdan Gothaj</jmeno>
+                    </osoba>
+                </hodnoceni>
+                <statistika>
+                    <stalkeri>2300</stalkeri>
+                    <mutanti>560</mutanti>
+                    <ukoly>333</ukoly>
+                    <artefakty>50</artefakty>
+                    <celkem>3243</celkem>
+                </statistika>
+            </pda>            
+        </herni_plocha>
+    </hra>
+    <!--zaznam5-->
+    <hra id="5" jazyk="anglictina">
+        <meta_info_ulozeni>
+            <jmeno_savu>StalkerEN77Save</jmeno_savu>
+            <datum_ulozeni>
+                <datum>2015-06-03</datum>
+                <cas>15:26:00</cas>
+            </datum_ulozeni>
+            <statut level="1">Novacek</statut>
+            <jmeno_postavy>Luka</jmeno_postavy>
+            <lokace>Tabor novacku</lokace>
+            <zdravi>100</zdravi>
+        </meta_info_ulozeni>
+        <nastaveni>
+            <obraz>
+                <typ_zobrazeni typ="dynamic">Dynamicke osvetleni</typ_zobrazeni>
+                <kvalita uroven_kvality="2.5">Stredni</kvalita>
+                <rozliseni pomer_stran="4:3">1280x1024</rozliseni>
+                <gamma hodnota="5">Normalni</gamma>
+                <kontrast hodnota ="5">Stredni</kontrast>
+                <jas hodnota = "5">Normalni</jas>
+                <fullscreen checked="true">Ano</fullscreen>
+            </obraz>
+            <zvuk>
+                <hlasitost_efektu efekt="10">Plny</hlasitost_efektu>
+                <hlasitost_hudby hudba="10">Plny</hlasitost_hudby>
+                <eax checked ="true">Ano</eax>
+            </zvuk>
+            <obecna_hra>
+                <obtiznost uroven="2">Zkuseny</obtiznost>
+                <zobraz_zamerovac checked="true">Ano</zobraz_zamerovac>
+                <dyn_zamer_kriz checked="true">Ano</dyn_zamer_kriz>
+                <zobraz_zbran checked="true">Ano</zobraz_zbran>
+                <zobraz_vzdalenost_cile checked="true">Ano</zobraz_vzdalenost_cile>
+                <id_npc checked ="true">Ano</id_npc>
+            </obecna_hra>
+            <ovladani>
+                <citlivost_mysi citlivost="5">Stredni</citlivost_mysi>
+                <inverze_mysi ch_invert="false">Ne</inverze_mysi>
+                <vychozi_nastaveni ch_def="true">Ano</vychozi_nastaveni>
+            </ovladani>
+        </nastaveni>
+        <herni_plocha>
+            <postava>
+                <inventar>
+                    <vaha max_hmotnost="50" stav_zatizeni="lehce zatizeny">15.5</vaha>
+                    <zbrane>
+                        <primarni typ_zbrane="n/a" stav="n/a">Zadna</primarni>
+                        <sekundarni typ_zbrane="pistole" stav="dobry">P5M</sekundarni>
+                    </zbrane>
+                    <oblek typ_obleku="obycejny" stav="vynikajici">Bunda</oblek>
+                </inventar>
+                <aktualni_zbran zbrane="sekundarni">P5M</aktualni_zbran>
+            </postava>
+            <pda>
+                <ukoly id="uuid01" faze="1" zadano="2011-01-02" cas="15:30:45">
+                    <nazev>Vyzvedni balicek</nazev>
+                    <faze_ukolu>Dojdi na urcene misto</faze_ukolu>
+                    <popis>Obchodnik:"Potrebuju nekoho, kdo by mi vyzvedl jednu zasilku, prachy te neminou,..."</popis>
+                </ukoly>
+                <kontakty>
+                    <osoba id="7777" frakce="samotar" reputace="neutralni" pristup="neutralni" uroven="novacek">
+                        <jmeno>Igor Dlato</jmeno>
+                    </osoba>
+                    <osoba id="6841" frakce="samotar" reputace="neutralni" pristup="pratelsky" uroven="zkuseny">
+                        <jmeno>Istvan Norek</jmeno>
+                    </osoba>
+                    <osoba id="0999" frakce="samotar" reputace="neutralni" pristup="neutralni" uroven="zkuseny">
+                        <jmeno>Nikola Laso</jmeno>
+                    </osoba>
+                    <osoba id="1681" frakce="samotar" reputace="neutralni" pristup="neutralni" uroven="novacek">
+                        <jmeno>Jozef Vrabec</jmeno>
+                    </osoba>
+                    <osoba id="6400" frakce="samotar" reputace="neutralni" pristup="pratelsky" uroven="novacek">
+                        <jmeno>Ilja Bota</jmeno>
+                    </osoba>
+                    <osoba id="0009" frakce="samotar" reputace="neutralni" pristup="neutralni" uroven="novacek">
+                        <jmeno>Michail Lusk</jmeno>
+                    </osoba>
+                </kontakty>
+                <hodnoceni>
+                    <osoba umisteni="1" id="0555" frakce="Svoboda" pristup="neutralni" hodnoceni="1050" stav="zivy">
+                        <jmeno>Mojmir Olejny</jmeno>
+                    </osoba>
+                    <osoba umisteni="2" id="5963" frakce="Svoboda" pristup="neutralni" hodnoceni="1000" stav="zivy">
+                        <jmeno>Vaska Dorzka</jmeno>
+                    </osoba>
+                    <osoba umisteni="3" id="1002" frakce="Povinnost" pristup="neutralni" hodnoceni="950" stav="zivy">
+                        <jmeno>Zikmund Mily</jmeno>
+                    </osoba>
+                </hodnoceni>
+                <statistika>
+                    <stalkeri>0</stalkeri>
+                    <mutanti>1</mutanti>
+                    <ukoly>1</ukoly>
+                    <artefakty>0</artefakty>
+                    <celkem>2</celkem>
+                </statistika>
+            </pda>            
+        </herni_plocha>
+    </hra>
+</ukladani_hry>
